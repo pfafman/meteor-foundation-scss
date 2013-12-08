@@ -1,0 +1,11 @@
+{
+    "name": "foundation-scss",
+    "description": "The Foundation framework using scss packaged for meteor",
+    "homepage": "https://github.com/pfafman/meteor-foundation-scss",
+    "author": "Timothy Pfafman",
+    "version": "0.0.1",
+    "git": "https://github.com/pfafman/meteor-foundation-scss.git",
+    "packages": {
+        "scss": {}
+    }
+}

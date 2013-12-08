@@ -15,6 +15,37 @@ Template.layout.rendered = ->
         $(document).foundation()
 ```
 
-If you are not using iron router then you can initialize this when meteor starts up.
+If you are not using iron router then you can initialize this when meteor starts up.  There are also issues with working forms into the meteor framework.
+
+### Install
+
+* Pre-Install [Meteorite](https://github.com/oortcloud/meteorite) to use [Atmosphere](https://atmosphere.meteor.com)
+
+```sh
+	[sudo] npm install -g meteorite
+```
+
+Note this is not on Atmosphere yet.  You can add it if you want by editing your meteor upper level smart.json file with a "git" entry:
+
+```
+{
+	"packages": {
+    	"foundation-sccs": {
+        	"git": "https://github.com/pfafman/meteor-foundation-sccs.git"
+    	},
+    	....
+   	}
+}
+```
+and then run meteorite to install.
+
+```
+	mrt add foundation-sccsr
+```
+
+If/when someone puts this on meteorite you can skip editing your smart.json file.
+
+Edit code so as to attach foundation to your DOM.
+
 
 
